@@ -11,6 +11,14 @@ public class Question2
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Please enter your height in (m): ");
     double height = in.nextDouble();
+    System.out.print("Please enter your weight in (kg): ");
+    double weight = in.nextDouble();
+    double bmi = weight/(height*height);
+    String output = String.format("Your bmi is %.3f kg",bmi);
+    System.out.print(output);
+
+    
   }
 }
