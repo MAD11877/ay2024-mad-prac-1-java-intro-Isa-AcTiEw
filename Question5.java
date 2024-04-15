@@ -29,12 +29,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter the number of integers to add: ");
+    System.out.print("");
     int times = in.nextInt();
     ArrayList<Integer> numlist = new ArrayList<>();
     int mode = 0;
     for(int i = 0; i<times; i++){
-      System.out.print("Enter the number: ");
+      System.out.print("");
       int num = in.nextInt();
       numlist.add(num);
     }
