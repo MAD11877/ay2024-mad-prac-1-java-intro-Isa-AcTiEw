@@ -29,12 +29,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("");
+    System.out.print("Enter the number of integers to add: ");
     int times = in.nextInt();
     ArrayList<Integer> numlist = new ArrayList<>();
-    
+    int mode = 0;
     for(int i = 0; i<times; i++){
-      System.out.print("");
+      System.out.print("Enter the number: ");
       int num = in.nextInt();
       numlist.add(num);
     }
@@ -57,16 +57,15 @@ public class Question5
       }
       // finding the new mode 
       if(count > max){
-        int mode = currentelement;
+        mode = currentelement;
         max = count; 
-        System.out.print(mode);
       }
       
       
     }
     
-    
 
+    System.out.print(mode);
     
     
   }
