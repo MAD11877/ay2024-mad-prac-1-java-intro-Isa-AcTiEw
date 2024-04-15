@@ -22,7 +22,7 @@ public class Question4
     Scanner in = new Scanner(System.in);
     String chara = "*";
     String s = "";
-    System.out.print("Please enter an integer: ");
+    System.out.print("");
     int num = in.nextInt();
 
     for(int j = 0; j<num; j++){

@@ -29,12 +29,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Please enter the number of integers you would like to have: ");
+    System.out.print("");
     int times = in.nextInt();
     ArrayList<Integer> numlist = new ArrayList<>();
     
     for(int i = 0; i<times; i++){
-      System.out.print("Enter your integer: ");
+      System.out.print("");
       int num = in.nextInt();
       numlist.add(num);
     }
